@@ -1,7 +1,7 @@
 {
   "name": "vue-js-panel",
-  "description": "A simple, example component library using Vue CLI 3.",
-  "version": "1.2.3",
+  "description": "Vue jsPanel wrapper",
+  "version": "0.0.1",
   "author": {
     "name": "64 Robots",
     "email": "info@64robots.com"
@@ -37,7 +37,8 @@
     "pre-commit": "cross-env PRE_COMMIT=true lint-staged"
   },
   "peerDependencies": {
-    "vue": "^2.5.17"
+    "vue": "^2.5.17",
+    "jspanel4": "^4.3.0"
   },
   "devDependencies": {
     "@babel/core": "^7.1.2",
@@ -55,7 +56,6 @@
     "cross-env": "^5.2.0",
     "eslint-plugin-vue": "5.0.0-beta.3",
     "imagemin-lint-staged": "^0.3.0",
-    "jspanel4": "^4.3.0",
     "lint-staged": "^8.0.4",
     "lodash": "^4.17.11",
     "markdownlint-cli": "^0.13.0",
