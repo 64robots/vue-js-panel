@@ -1,4 +1,4 @@
-# Hello Vue Components
+# Vue jsPanel
 
 > Vue jsPanel wrapper
 
