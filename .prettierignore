@@ -1,0 +1,4 @@
+/node_modules/**
+/dist/**
+/tests/e2e/demo/public/browser/dist/**
+/tests/unit/coverage/**
