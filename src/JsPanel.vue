@@ -9,7 +9,6 @@
 </template>
 <script>
 import { jsPanel } from 'jspanel4/es6module/jspanel.min.js'
-// import 'jspanel4/dist/jspanel.min.css'
 
 export default {
   name: 'JsPanel',
@@ -22,7 +21,6 @@ export default {
 
     options: {
       type: Object,
-      required: true,
       default: () => ({})
     }
   },

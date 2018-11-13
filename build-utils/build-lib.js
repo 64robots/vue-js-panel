@@ -43,10 +43,7 @@ if (process.env.VUE_APP_E2E) {
       if (error) console.error(error)
     }
   )
-  const nodeModulesDir = path.resolve(
-    __dirname,
-    '../node_modules/vue-js-panel'
-  )
+  const nodeModulesDir = path.resolve(__dirname, '../node_modules/vue-js-panel')
   if (!fs.existsSync(nodeModulesDir)) {
     fs.mkdirSync(nodeModulesDir)
   }
@@ -66,10 +63,7 @@ if (process.env.VUE_APP_E2E) {
   )
   ncp(
     path.resolve(__dirname, '../package.json'),
-    path.resolve(
-      __dirname,
-      '../node_modules/vue-js-panel/package.json'
-    ),
+    path.resolve(__dirname, '../node_modules/vue-js-panel/package.json'),
     error => {
       if (error) console.error(error)
     }
